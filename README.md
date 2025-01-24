@@ -19,7 +19,7 @@ counter part:
  also when the counter value reaches -1 (e.g. the beginning or negative numbers) it triggers a dialog message
 
 Themes part:  
- 1- the ThemeState is provided to the theme property in material app in main page and its set initially as dark theme, when the switch button is toggled (ThemeToggle) event is 
+ 1- the ThemeState is provided to the theme property in material app in main page and its set initially as dark theme, when the switch button is toggled (toggleDarkTheme) function is 
     triggered which emits a state that checks whether 
     the current theme is dark or light then it updates the state with the opposite theme
 
